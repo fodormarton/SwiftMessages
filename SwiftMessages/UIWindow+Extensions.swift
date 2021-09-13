@@ -24,7 +24,6 @@ extension UIWindow {
     #endif
 }
 
-@available(iOS 13.0, *)
 private extension UIScene.ActivationState {
     var sortPriority: Int {
         switch self {

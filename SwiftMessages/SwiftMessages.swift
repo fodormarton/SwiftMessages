@@ -79,7 +79,6 @@ open class SwiftMessages {
          status bar. The only alternative is to set `Config.prefersStatusBarHidden = true`
          to hide it.
         */
-        @available(iOS 13.0, *)
         case windowScene(_: UIWindowScene, windowLevel: UIWindow.Level)
 
         /**
@@ -334,7 +333,6 @@ open class SwiftMessages {
          Use with apps that don't support dark mode to prevent messages from adopting the
          system's interface style.
         */
-        @available(iOS 13, *)
         public var overrideUserInterfaceStyle: UIUserInterfaceStyle {
             // Note that this is modelled as a computed property because
             // Swift doesn't allow `@available` with stored properties.

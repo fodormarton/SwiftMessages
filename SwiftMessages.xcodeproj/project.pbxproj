@@ -64,8 +64,6 @@
 		86589D911D692B1C0041676C /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86589D901D692B1B0041676C /* TabView.xib */; };
 		867BED211D622793005212E3 /* BackgroundViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BED201D622793005212E3 /* BackgroundViewable.swift */; };
 		86B48AEF1D5A41C900063E2B /* SwiftMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B48AEE1D5A41C900063E2B /* SwiftMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86B48AF61D5A41C900063E2B /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B48AEC1D5A41C900063E2B /* SwiftMessages.framework */; };
-		86B48AFB1D5A41C900063E2B /* SwiftMessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B48AFA1D5A41C900063E2B /* SwiftMessagesTests.swift */; };
 		86BBA8F91D5E01FC00FE8F16 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86BBA8F81D5E01FC00FE8F16 /* CardView.xib */; };
 		86BBA8FC1D5E03F100FE8F16 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867E21821D4D025200594A41 /* MessageView.swift */; };
 		86BBA8FD1D5E03F800FE8F16 /* SwiftMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864495581D4FA0AD0056EB2A /* SwiftMessages.swift */; };
@@ -82,16 +80,6 @@
 		E6E49F911D70A344006CB883 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862C0CDA1D5A397F00D06168 /* MessageView.xib */; };
 		E6E49F921D70A349006CB883 /* StatusLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862C0CDB1D5A397F00D06168 /* StatusLine.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		86B48AF71D5A41C900063E2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 867E21471D4D01D500594A41 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86B48AEB1D5A41C900063E2B;
-			remoteInfo = SwiftMessages;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		220655111FAF82B600F4E00F /* MarginAdjustable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarginAdjustable+Extensions.swift"; sourceTree = "<group>"; };
@@ -148,7 +136,6 @@
 		22E01F631E74EC8B00ACE19A /* MaskingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingView.swift; sourceTree = "<group>"; };
 		22E307FE1E74C5B100E35893 /* AccessibleMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibleMessage.swift; sourceTree = "<group>"; };
 		22F27950210CE25900273E7F /* CornerRoundingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRoundingView.swift; sourceTree = "<group>"; };
-		862C0C6A1D58E93300D06168 /* SwiftMessages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = SwiftMessages.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		862C0CB01D5911C100D06168 /* NSBundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBundle+Extensions.swift"; sourceTree = "<group>"; };
 		862C0CDA1D5A397F00D06168 /* MessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageView.xib; path = Resources/MessageView.xib; sourceTree = "<group>"; };
 		862C0CDB1D5A397F00D06168 /* StatusLine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StatusLine.xib; path = Resources/StatusLine.xib; sourceTree = "<group>"; };
@@ -169,9 +156,6 @@
 		86B48AEC1D5A41C900063E2B /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B48AEE1D5A41C900063E2B /* SwiftMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMessages.h; sourceTree = "<group>"; };
 		86B48AF01D5A41C900063E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86B48AF51D5A41C900063E2B /* SwiftMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		86B48AFA1D5A41C900063E2B /* SwiftMessagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessagesTests.swift; sourceTree = "<group>"; };
-		86B48AFC1D5A41C900063E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86BBA8F81D5E01FC00FE8F16 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardView.xib; path = Resources/CardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,14 +164,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86B48AF21D5A41C900063E2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86B48AF61D5A41C900063E2B /* SwiftMessages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,11 +288,9 @@
 			isa = PBXGroup;
 			children = (
 				86B48AED1D5A41C900063E2B /* SwiftMessages */,
-				86B48AF91D5A41C900063E2B /* SwiftMessagesTests */,
 				867E21501D4D01D500594A41 /* Products */,
 				224FB6C8211651D10081D4DE /* Frameworks */,
 				22A2EA6E24EC6CFA00BB2540 /* Package.swift */,
-				862C0C6A1D58E93300D06168 /* SwiftMessages.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -324,7 +298,6 @@
 			isa = PBXGroup;
 			children = (
 				86B48AEC1D5A41C900063E2B /* SwiftMessages.framework */,
-				86B48AF51D5A41C900063E2B /* SwiftMessagesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -355,15 +328,6 @@
 				86B48B031D5A41E500063E2B /* Support */,
 			);
 			path = SwiftMessages;
-			sourceTree = "<group>";
-		};
-		86B48AF91D5A41C900063E2B /* SwiftMessagesTests */ = {
-			isa = PBXGroup;
-			children = (
-				86B48AFA1D5A41C900063E2B /* SwiftMessagesTests.swift */,
-				86B48AFC1D5A41C900063E2B /* Info.plist */,
-			);
-			path = SwiftMessagesTests;
 			sourceTree = "<group>";
 		};
 		86B48B031D5A41E500063E2B /* Support */ = {
@@ -407,24 +371,6 @@
 			productReference = 86B48AEC1D5A41C900063E2B /* SwiftMessages.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		86B48AF41D5A41C900063E2B /* SwiftMessagesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 86B48B001D5A41C900063E2B /* Build configuration list for PBXNativeTarget "SwiftMessagesTests" */;
-			buildPhases = (
-				86B48AF11D5A41C900063E2B /* Sources */,
-				86B48AF21D5A41C900063E2B /* Frameworks */,
-				86B48AF31D5A41C900063E2B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				86B48AF81D5A41C900063E2B /* PBXTargetDependency */,
-			);
-			name = SwiftMessagesTests;
-			productName = SwiftMessagesTests;
-			productReference = 86B48AF51D5A41C900063E2B /* SwiftMessagesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -439,10 +385,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
-					};
-					86B48AF41D5A41C900063E2B = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -460,7 +402,6 @@
 			projectRoot = "";
 			targets = (
 				86B48AEB1D5A41C900063E2B /* SwiftMessages */,
-				86B48AF41D5A41C900063E2B /* SwiftMessagesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -514,13 +455,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86B48AF31D5A41C900063E2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -561,23 +495,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86B48AF11D5A41C900063E2B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86B48AFB1D5A41C900063E2B /* SwiftMessagesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		86B48AF81D5A41C900063E2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 86B48AEB1D5A41C900063E2B /* SwiftMessages */;
-			targetProxy = 86B48AF71D5A41C900063E2B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		867E21751D4D01D500594A41 /* Debug */ = {
@@ -745,30 +663,6 @@
 			};
 			name = Release;
 		};
-		86B48B011D5A41C900063E2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SwiftMessagesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.swiftkick.SwiftMessagesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		86B48B021D5A41C900063E2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SwiftMessagesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.swiftkick.SwiftMessagesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -786,15 +680,6 @@
 			buildConfigurations = (
 				86B48AFE1D5A41C900063E2B /* Debug */,
 				86B48AFF1D5A41C900063E2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		86B48B001D5A41C900063E2B /* Build configuration list for PBXNativeTarget "SwiftMessagesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86B48B011D5A41C900063E2B /* Debug */,
-				86B48B021D5A41C900063E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
